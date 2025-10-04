@@ -1,0 +1,81 @@
+.container
+{
+    margin-top:10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
+}
+.main_container_cesar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vb;
+    background-color: #6c4ebf;
+    z-index:1;
+}
+
+.inputs
+{
+    width: 90%;
+    height: 150px;
+    fontSize: 24px;
+    padding: 10px;
+    boxSizing: border-box;
+    resize: none ;
+    border: 2px solid #333;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+}
+
+.inputs:focus {
+    border-color: rgba(148, 110, 225, 0.8);
+}
+
+select{
+   padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+option
+{
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.btn
+{
+    position: relative;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    border:0;
+    margin-right: 10px;
+    background-color: #8069cc;
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    box-shadow:4px 4px 1px #6c4ebf;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover
+{
+    top:-4px;
+}
+.btn:active{
+    top:4px;
+}
+label
+{
+    font-size: 22px;
+}
