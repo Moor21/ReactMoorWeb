@@ -8,7 +8,7 @@ import Morze from "./pages/Morze";
 import Vijener from "./pages/Vijener";
 import QRcode from "./pages/QRcode";
 import Mirror from "./pages/Mirror";
-
+import Home from "./pages/Home"
 
 function App() {
     let [cypherWindow, setCypherWindow] = useState(false);
@@ -21,6 +21,7 @@ function App() {
         <BarMenu onClick={onClickHandler}/>
         {cypherWindow && <CypherWindow onClick={onClickHandler}/>}
         <Routes>
+            <Route path="/" element={<Home/>}/>
             <Route path="/Cesar" element={<Cesar />} />
             <Route path="/Vijener" element={<Vijener />} />
             <Route path="/Mirror" element={<Mirror />} />

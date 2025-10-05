@@ -112,7 +112,7 @@ const Cesar = () => {
                 <textarea placeholder="Текст, который хотите зашифровать..." className="inputs" value = {text} onChange={(e)=>setText(e.target.value)}></textarea>
                 <textarea value={textResult} placeholder="Результат..." className="inputs"></textarea>
                 <div className="key_container">
-                    <label>Ключ (сдвиг) </label>
+                    <label className="cesar_alphabet_label">Ключ (сдвиг) </label>
                     <input placeholder="Обычно 0" style={{width: "100px", height:"20px"}} value={key} onChange={(e)=>setKey(Number(e.target.value))} className="inputs" type="number"/>
                 </div>
                 <div className="alphabet_container">
